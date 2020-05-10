@@ -1,0 +1,45 @@
+body{
+    background-color: skyblue;
+    background-image:url("../img/图标.png");
+    background-size: 50%;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: 50% 50%;
+
+}
+.clazz,.logo,.btn{
+    display: inline;
+}
+
+.logo{
+    width: 200px;
+}
+#logo{
+    height: 100px;
+    width: 200px;
+}
+.btn{
+    width:400px ;
+    float: right;
+}
+#login{
+    float: right;
+    display: inline;
+}
+#regist{
+    display: inline;
+    float: right;
+}
+#bottom {
+    height: 30px;
+    width: 100%;
+    left: 44%;
+    position: fixed;
+    bottom: 0;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background-color: #09a128;
+    font-size: 30px;
+}
